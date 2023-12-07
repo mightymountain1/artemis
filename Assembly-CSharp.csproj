@@ -1,0 +1,1458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>9.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{E13E8FAB-B30D-5FE4-73C1-EEA72B4B3F26}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>UNITY_2022_1_22;UNITY_2022_1;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_QUERY_BUILDER;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_OSX;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Package</UnityProjectGenerator>
+    <UnityProjectGeneratorVersion>2.0.16</UnityProjectGeneratorVersion>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneOSX:2</UnityBuildTarget>
+    <UnityVersion>2022.1.22f1</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_UvScroll.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_AttachEffectToArrow.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/Items/QualityColor.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/EffectSettings/AE_EffectSettingColor.cs" />
+    <Compile Include="Assets/1.0.Scripts/Interafces/IUseable.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/NewMaterialChange.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Demo/Scripts/PolygonEffectCycler.cs" />
+    <Compile Include="Assets/1.0.Scripts/SceneManagement/SceneManagerGM.cs" />
+    <Compile Include="Assets/1.0.Scripts/Quests/QuestGiver.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/ForEffects/LookAtTarget.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Scripts/WheelEffects.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Scripts/CarSelfRighting.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Scripts/Mudguard.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SkewTextExample.cs" />
+    <Compile Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/MobileBloom/Slashes_MobileBloom.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/ParticleSystems/Scripts/Explosive.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/ChestScript.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/SimpleScript.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/DynamicShadowSettings.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/SiegeEquipment/FI_Demo_CollapseObject.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/LerpControlledBob.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/Utility/FI_Demo_RollObject.cs" />
+    <Compile Include="Assets/1.0.Scripts/TimeManager.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Curves/AE_LightCurves.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/PlatformSpecificContent.cs" />
+    <Compile Include="Assets/1.0.Scripts/Interactions/SiegeWeaponCameraMovement.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/RandomSounds.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Resources/Scripts/Hovl_Laser2.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Rendering/AE_LegacyRenderDistortion.cs" />
+    <Compile Include="Assets/1.0.Scripts/Camera/Camera1stPerson.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/SlowMoButton.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/ParticleSystem/AE_ParticlesWorldLookAt.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Cameras/Scripts/ProtectCameraFromWallClip.cs" />
+    <Compile Include="Assets/Imported assets/Archer Pack/AP_Demo/AP_Scripts/AP_Demo.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/LevelReset.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs" />
+    <Compile Include="Assets/1.0.Scripts/Vendor/VendorItem.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Resources/Scripts/Hovl_Laser.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Environment/Water/Water/Scripts/Displace.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_ClonesCreator.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Cameras/Scripts/HandHeldCam.cs" />
+    <Compile Include="Assets/1.1Prefabs/Abilities/Abilities/ParticlesDamagePlayer.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplanePropellerAnimator.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_RelativeTransform.cs" />
+    <Compile Include="Assets/1.0.Scripts/Projectiles/EnemyProjectile.cs" />
+    <Compile Include="Assets/1.0.Scripts/Interafces/IActionButton.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Rendering/AE_PerPlatformSettings.cs" />
+    <Compile Include="Assets/1.0.Scripts/Buttons/VendorButton.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs" />
+    <Compile Include="Assets/1.0.Scripts/WeaponFX.cs" />
+    <Compile Include="Assets/1.0.Scripts/CharacterRelated/Character.cs" />
+    <Compile Include="Assets/1.0.Scripts/CharacterRelated/Citizen.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/ParticleSystems/Scripts/AfterburnerPhysicsForce.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiLoadSceneOnClick.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneController.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Scripts/ParticleCollisionInstance.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/ParticleSystems/Scripts/ExplosionPhysicsForce.cs" />
+    <Compile Include="Assets/1.0.Scripts/FXScripts/Hammer.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/ForEffects/ObjectMoveDestroy.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Environment/Water/Water/Scripts/PlanarReflection.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/STManager.cs" />
+    <Compile Include="Assets/1.0.Scripts/Quests/QuestLog.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/EffectSettings/AE_EffectSettingProjectile.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01_UGUI.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/TimedObjectActivator.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Scripts/BrakeLight.cs" />
+    <Compile Include="Assets/1.0.Scripts/Quests/QuestScript.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/ME_LightCurves.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Aircraft/Scripts/JetParticleEffect.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Scripts/SciFiLightFlicker.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Environment/Water (Basic)/Scripts/WaterBasic.cs" />
+    <Compile Include="Assets/1.0.Scripts/Projectiles/Arrow.cs" />
+    <Compile Include="Assets/1.0.Scripts/Archer/ArcherAttack.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_A.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/Items/Money.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Scripts/PolygonLightFade.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/CameraRefocus.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Demo/Scripts/PolygonFireProjectile.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_ParticleGravityPoint.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_TextureSheetAnimation.cs" />
+    <Compile Include="Assets/1.0.Scripts/Arena/ArenaRewardWindow.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/Bosses/SkeletonLord.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/Bosses/SkeletonKnight.cs" />
+    <Compile Include="Assets/1.0.Scripts/Buttons/SpellButton.cs" />
+    <Compile Include="Assets/Scripts/DisableMeshAtRuntime.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/EffectSettings/AE_EffectQuality.cs" />
+    <Compile Include="Assets/1.0.Scripts/NewBehaviourScript.cs" />
+    <Compile Include="Assets/1.0.Scripts/Perks/PerkManager.cs" />
+    <Compile Include="Assets/1.0.Scripts/CharacterRelated/EnergyBar.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/ParticleSystems/Scripts/SmokeParticles.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_FreezeTransform.cs" />
+    <Compile Include="Assets/Scripts/Move.cs" />
+    <Compile Include="Assets/Scripts/FpsCounter.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_CloneStartParams.cs" />
+    <Compile Include="Assets/ImportedAssets/Epic Toon FX/Scripts/ETFXRotation.cs" />
+    <Compile Include="Assets/1.0.Scripts/UI/AbilityIndicators.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Scripts/SciFiPitchRandomizer.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/ParticleSystem/AE_ParticlesSizeOverTime.cs" />
+    <Compile Include="Assets/EnemyDebuffs.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/ME_CustomLight.cs" />
+    <Compile Include="Assets/1.0.Scripts/SlashHandler.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/SiegeEquipment/FI_Demo_ManEquipment.cs" />
+    <Compile Include="Assets/1.0.Scripts/PlayerAttack.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/ScaleFactorApplyToMaterial.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/Golem.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Spells Pack/Demo/Scripts/Projectile.cs" />
+    <Compile Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/Scripts/AnimationEventEffects.cs" />
+    <Compile Include="Assets/1.0.Scripts/Triggers/SpawnTrigger.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/InventoryScript.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Cameras/Scripts/AutoCam.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Scripts/CarAIControl.cs" />
+    <Compile Include="Assets/1.3.Enemies/Skeleton_tier2/SkeletonWarrior_Set2_OneHandedAxe_And_Shield/Scripts/WeaponAttachmentHelper.cs" />
+    <Compile Include="Assets/1.0.Scripts/PowerUps/PowerUpScript.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Scripts/SciFiRotation.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/ZombieAI.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl4Axis.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/BagScript.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/DemoResources/Scripts/ME_MouseOrbit.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Curves/AE_ShaderFloatCurve.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiProjectileScript.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Scripts/SkidTrail.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/Helpers/ME_AnimatorEvents.cs" />
+    <Compile Include="Assets/1.0.Scripts/Quests/QGQuestScript.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/CameraSwitch.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/ME_FixParticlesAligment.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Scripts/FrontAttack.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
+    <Compile Include="Assets/1.0.Scripts/Projectiles/HomingMissile.cs" />
+    <Compile Include="Assets/1.0.Scripts/Audio/MusicPlayer.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_StartDelay.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/GhostBoss.cs" />
+    <Compile Include="Assets/1.0.Scripts/PlayerStats.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Resources/Scripts/Hovl_LaserDemo.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/StatManager.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/CurveControlledBob.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/TutorialManager.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Scripts/TargetProjectile.cs" />
+    <Compile Include="Assets/1.0.Scripts/Other/HandScript.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Scripts/PolygonSoundSpawn.cs" />
+    <Compile Include="Assets/Imported assets/The Amazing Impact VFX/Sample Scene/SampleManager.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/DemoResources/Scripts/ME_DemoGUI.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Curves/AE_ProjectorSizeCurves.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_PhysicsMotion.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/Utility/FI_DestroyMe.cs" />
+    <Compile Include="Assets/1.0.Scripts/ActionBarScript.cs" />
+    <Compile Include="Assets/1.0.Scripts/Quests/Bnus Quest/QuestTriggerPad.cs" />
+    <Compile Include="Assets/1.0.Scripts/Loot/Loot.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Curves/AE_AnimatorSpeed.cs" />
+    <Compile Include="Assets/1.0.Scripts/Dialogue/DialogueWindow.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeB.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/ParticleSystems/Scripts/ParticleSystemMultiplier.cs" />
+    <Compile Include="Assets/1.0.Scripts/Audio/Track.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Magic circles/Demo magic circles Vol 1/CameraHolder.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Rendering/AE_SwapDistortionShaderForMobile.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneControlSurfaceAnimator.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/2D/Scripts/Camera2DFollow.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/Enemy.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enums/PlayerClass.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/EnvMapAnimator.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/ForEffects/MultipleObjectsMake.cs" />
+    <Compile Include="Assets/1.0.Scripts/TheRamparts/RampartsWaveSpawner.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Environment/Water/Water/Scripts/GerstnerDisplace.cs" />
+    <Compile Include="Assets/1.0.Scripts/Interafces/IClickable.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Cameras/Scripts/PivotBasedCameraRig.cs" />
+    <Compile Include="Assets/1.0.Scripts/FXScripts/IceTrap.cs" />
+    <Compile Include="Assets/1.0.Scripts/SelfDestruct_Me.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/CurrencyManager.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Resources/Scripts/ProjectileMover2D.cs" />
+    <Compile Include="Assets/1.0.Scripts/Perks/Perk.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/VariousTranslateMove.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Scripts/PolygonLightFlicker.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/AutoMoveAndRotate.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_WorldSpaceRotationAtStart.cs" />
+    <Compile Include="Assets/1.0.Scripts/Archer/TeleportPlayer.cs" />
+    <Compile Include="Assets/camera3rdPerson.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Demo/Scripts/PolygonProjectileScript.cs" />
+    <Compile Include="Assets/Imported assets/Bloodbath/Demo Scene/SelfDestruct.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/GameManager.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/Utility/FI_FrameRateManager.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/Utility/FI_UnparentMe.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/ArcaneTornado.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/AAA Projectiles Vol 1/Demo scenes/DemoShooting.cs" />
+    <Compile Include="Assets/1.0.Scripts/Buttons/BagButton.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/SkeletonArcher.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/CameraController.cs" />
+    <Compile Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/SceneResources/Other/Slash_MouseOrbit.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/DemoResources/Scripts/ME_RealtimeReflection.cs" />
+    <Compile Include="Assets/199. Scripts/Ui/HotBarButton.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Map track markers VFX/Demo scene/RaycastInstance.cs" />
+    <Compile Include="Assets/1.0.Scripts/Quests/Bnus Quest/BonusQuestWindow.cs" />
+    <Compile Include="Assets/1.0.Scripts/Vendor/VendorWindow.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/ChangeSizeColor.cs" />
+    <Compile Include="Assets/1.0.Scripts/Player.cs" />
+    <Compile Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/Scripts/Slash_Light.cs" />
+    <Compile Include="Assets/199. Scripts/Ui/DamagePopupScript.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/KeybindManager.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/Helpers/ME_ColorHelper.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets/HitTest.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_BowString.cs" />
+    <Compile Include="Assets/1.0.Scripts/Interafces/IMoveable.cs" />
+    <Compile Include="Assets/199. Scripts/Ui/HotBar.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_AudioPitchCurves.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Curves/AE_FollowMotion.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets/1.3.Enemies/Skeleton_tier2/SkeletonWarrior_Set2_OneHandedAxe_And_Shield/Scripts/EquipmentAttachmentHelper.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Spells Pack/Demo/Scripts/DemoSpellPack.cs" />
+    <Compile Include="Assets/1.0.Scripts/UI/DamagePopupScript.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/ME_TrailRendererNoise.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_Rotator.cs" />
+    <Compile Include="Assets/1.0.Scripts/Audio/AudioManager.cs" />
+    <Compile Include="Assets/1.0.Scripts/TheRamparts/EnemySpawn.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ObjectSpin.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/SiegeEquipment/FI_Demo_OperateSiegeWeapon.cs" />
+    <Compile Include="Assets/1.0.Scripts/Archer/Arrow/FireShotArrow.cs" />
+    <Compile Include="Assets/1.0.Scripts/UI/AbilitiesUI.cs" />
+    <Compile Include="Assets/1.0.Scripts/Saving/SaveManager.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Demo scene/Archer/HS_CameraShaker.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Scripts/CarAudio.cs" />
+    <Compile Include="Assets/1.0.Scripts/Buttons/CharButton.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/ForEffects/_ObjectsMakeBase.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Spells Pack/Demo/Scripts/CreateProjectile.cs" />
+    <Compile Include="Assets/1.0.Scripts/UI/CloseThisCanvas.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/ParticleSystem/AE_ParticleCollisionDecal.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/Bosses/ExlplosionScript.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiBeamScript.cs" />
+    <Compile Include="Assets/1.0.Scripts/SceneManagement/FinalScore.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/Items/MoneyBag.cs" />
+    <Compile Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/SceneResources/Other/Slash_DemoGUI.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/2D/Scripts/PlatformerCharacter2D.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/ForEffects/ObjectMove.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/SiegeEquipment/FI_Demo_MannedEquipment_DependentWheel.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/FPSCounter.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/SimpleActivatorMenu.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Scripts/SciFiLightFade.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/ParticleSceneControls.cs" />
+    <Compile Include="Assets/1.0.Scripts/Buttons/QuestRewardButton.cs" />
+    <Compile Include="Assets/1.0.Scripts/Buttons/ActionButton.cs" />
+    <Compile Include="Assets/1.0.Scripts/SceneManagement/LevelChanger.cs" />
+    <Compile Include="Assets/1.0.Scripts/SceneManagement/CharacterSelection.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/GameManager_References.cs" />
+    <Compile Include="Assets/1.0.Scripts/MainMenu/DungeonSelecter.cs" />
+    <Compile Include="Assets/Imported assets/The Amazing Impact VFX/Sample Scene/ButtonAnimation.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs" />
+    <Compile Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/Scripts/Slash_GrvityPoint.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/Utility/FI_ClipRandomizer.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiLoopScript.cs" />
+    <Compile Include="Assets/1.0.Scripts/Quests/Bnus Quest/BonusQuest.cs" />
+    <Compile Include="Assets/1.0.Scripts/Interafces/IDescribable.cs" />
+    <Compile Include="Assets/1.0.Scripts/Quests/Bnus Quest/BonusQuestLog.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/WarpTextExample.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiButtonScript.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/Utility/FI_DeactivateRigidbody.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Cameras/Scripts/TargetFieldOfView.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/3d Fantasy Shots/Sample Scene/SceneManager.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/SimpleMouseRotator.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/ME_MeshMaterialEffect.cs" />
+    <Compile Include="Assets/1.0.Scripts/Quests/Bnus Quest/BonusQuestScript.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/EnemyTest.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/ParticleSystems/Scripts/ExplosionFireAndDebris.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_SetMeshToEffect.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Curves/AE_ScaleCurves.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/FXManager.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/Helpers/ME_EffectSettingColor.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/XPManager.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Demo scene/Archer/HS_CameraController.cs" />
+    <Compile Include="Assets/1.0.Scripts/Dialogue/DialogueNode.cs" />
+    <Compile Include="Assets/1.0.Scripts/TrainingDummy.cs" />
+    <Compile Include="Assets/SkeletonStateScript.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Scripts/Suspension.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Resources/Scripts/ProjectileMover.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Cameras/Scripts/AbstractTargetFollower.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/HomeMenus.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/Ghost.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Scripts/CarController.cs" />
+    <Compile Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/Scripts/Slash_AxisRotateByTime.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/SiegeEquipment/FI_Demo_ProjectileImpact.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/SmoothFollow.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Rendering/AE_LegacyQueue.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/RewardManager.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Resources/Scripts/Hovl_DemoLasers.cs" />
+    <Compile Include="Assets/1.0.Scripts/Quests/Quest.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/DemoResources/Scripts/ME_FPS.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/DemoResources/Scripts/AE_RagdollCollisionEnter.cs" />
+    <Compile Include="Assets/Imported assets/The Amazing Impact VFX/Sample Scene/SelfDestruct.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshSpawner.cs" />
+    <Compile Include="Assets/WaveSpawner.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Curves/AE_ShaderProperties.cs" />
+    <Compile Include="Assets/1.0.Scripts/Loot/ChestLoot.cs" />
+    <Compile Include="Assets/1.0.Scripts/Saving/SavedGame.cs" />
+    <Compile Include="Assets/Imported assets/Archer Pack/AP_Demo/AP_Scripts/AP_Projectiles.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Demo/Scripts/PolygonLoopScript.cs" />
+    <Compile Include="Assets/1.0.Scripts/Buttons/LootButton.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_AudioEnableByRandom.cs" />
+    <Compile Include="Assets/1.0.Scripts/KnockBackAOE.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneUserControl2Axis.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Demo/Scripts/PolygonSceneSelect.cs" />
+    <Compile Include="Assets/1.0.Scripts/Perks/PerkScript.cs" />
+    <Compile Include="Assets/1.0.Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/VariousRotateObject.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/WaypointCircuit.cs" />
+    <Compile Include="Assets/1.0.Scripts/Interactions/SiegeWeaponOperate.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/Items/HearthStone.cs" />
+    <Compile Include="Assets/1.0.Scripts/CharacterRelated/Stat.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/TimedObjectDestructor.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/ME_ParticleGravityPoint.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Resources/Scripts/HittedObject.cs" />
+    <Compile Include="Assets/Imported assets/Archer Pack/AP_Demo/AP_Scripts/AP_CreateProjectiles.cs" />
+    <Compile Include="Assets/Imported assets/Bloodbath/Demo Scene/DemoManager.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/PSMeshRendererUpdater.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark03.cs" />
+    <Compile Include="Assets/1.0.Scripts/CameraFollow.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs" />
+    <Compile Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/Scripts/Slash_WroomWroom.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/ForEffects/ShieldActivate.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Environment/Water/Water/Scripts/WaterTile.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/Sci-Fi Effects/Scripts/SciFiBeamStatic.cs" />
+    <Compile Include="Assets/1.0.Scripts/Quests/QuestGiverWindow.cs" />
+    <Compile Include="Assets/1.0.Scripts/iceField.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs" />
+    <Compile Include="Assets/1.0.Scripts/Archer/ArcherController.cs" />
+    <Compile Include="Assets/Imported assets/RzFX_BloodSpray/KillTime.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/EffectSettings/AE_SharedParticlesQualitySetting.cs" />
+    <Compile Include="Assets/1.0.Scripts/Loot/LootTable.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Curves/AE_DistanceOffset.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/Bosses/FireBoss.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/BuffManager.cs" />
+    <Compile Include="Assets/1.0.Scripts/Other/Window.cs" />
+    <Compile Include="Assets/1.0.Scripts/Interafces/IInteractable.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Environment/Water/Water/Scripts/SpecularLighting.cs" />
+    <Compile Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/Scripts/Slash_UIEffectList.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/Items/Armor.cs" />
+    <Compile Include="Assets/SampleScenes/Menu/Scripts/PauseMenu.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/2D/Scripts/Platformer2DUserControl.cs" />
+    <Compile Include="Assets/1.0.Scripts/Camera/MakeWallsTransparent.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Scripts/PolygonBeamStatic.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/WaypointProgressTracker.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/Rendering/ME_PerPlatformSettings.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_AttachEffectToBow.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/DragRigidbody.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs" />
+    <Compile Include="Assets/1.0.Scripts/PowerUps/PowerUpDrop.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAudio.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/ParticleSystems/Scripts/FireLight.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/EnemyWeapon.cs" />
+    <Compile Include="Assets/1.0.Scripts/SingleGM.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Wizard spells pack/Scripts/FrontSpawner.cs" />
+    <Compile Include="Assets/1.0.Scripts/Vendor/Vendor.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enums/EnemyStates.cs" />
+    <Compile Include="Assets/SkelArmyStateSpecial1.cs" />
+    <Compile Include="Assets/1.0.Scripts/Audio/MixerController.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/AAA Projectiles Vol 1/Demo scenes/DemoShooting2D.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/DemoResources/Scripts/RFX4_FPS.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/DemoResources/Scripts/ME_DemoGUI1.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Environment/Water/Water/Scripts/WaterBase.cs" />
+    <Compile Include="Assets/1.0.Scripts/SceneManagement/LevelLoader.cs" />
+    <Compile Include="Assets/1.0.Scripts/EnemyMovement.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/UIManager.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Environment/Water/Water/Scripts/MeshContainer.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexJitter.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/VariousEffectsScene.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Curves/AE_WindCurves.cs" />
+    <Compile Include="Assets/1.0.Scripts/Buttons/NewTalentButton.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/FollowTarget.cs" />
+    <Compile Include="Assets/1.0.Scripts/CharacterRelated/EnemyAIOLD.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/ME_ParticleCollisionDecal.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Aircraft/Scripts/AeroplaneAiControl.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventHandler.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/ParticleSystems/Scripts/ExtinguishableParticleSystem.cs" />
+    <Compile Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/Scripts/Teleport.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/Items/Bag.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/DelayActive.cs" />
+    <Compile Include="Assets/1.0.Scripts/CharacterRelated/NPC.cs" />
+    <Compile Include="Assets/1.0.Scripts/Dialogue/Dialogue.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/ForcedReset.cs" />
+    <Compile Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Scripts/VariousMouseOrbit.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/ParticleSystemDestroyer.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/Enviroment/Chest.cs" />
+    <Compile Include="Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/MessageFeedManager.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Aircraft/Scripts/LandingGear.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/ObjectResetter.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" />
+    <Compile Include="Assets/1.0.Scripts/DoorTriggerScript.cs" />
+    <Compile Include="Assets/Imported assets/RzFX_BloodSpray/PlayFX.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs" />
+    <Compile Include="Assets/1.1Prefabs/Abilities/Abilities/ParticleCollisionAbilities.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/DemoResources/Scripts/AE_RagdollPhysx.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/AlphaButtonClickMask.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Wizard spells pack/Demo scene/Demo scene files/HS_MovementInput.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/DemoResources/Scripts/AE_AnimatorEvents.cs" />
+    <Compile Include="Assets/1.0.Scripts/Saving/SaveData.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/FOVKick.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Resources/Scripts/Rotator.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_Decal.cs" />
+    <Compile Include="Assets/1.0.Scripts/Archer/Arrow/FrostShotArrow.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/Items/Item.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Resources/Scripts/EGA_EffectSound.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/2D/Scripts/Restarter.cs" />
+    <Compile Include="Assets/1.0.Scripts/GameManager_References.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/EnemyAI.cs" />
+    <Compile Include="Assets/Imported assets/Golem Rock Ogre Monster/Demo/Demo.cs" />
+    <Compile Include="Assets/1.0.Scripts/Spells/SpellBook.cs" />
+    <Compile Include="Assets/1.0.Scripts/Camera/ObstructionManager.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiDragMouseOrbit.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_SimpleDecal.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/2D/Scripts/CameraFollow.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/Utility/FI_Demo_SlideObject.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/ParticleSystems/Scripts/WaterHoseParticles.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/ME_ParticleTrails.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Demo/Scripts/PolygonButtonScript.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Scripts/CarUserControl.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Scripts/AutoDestroyPS.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/SlotScript.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/EnemyShieldBuff.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs" />
+    <Compile Include="Assets/1.0.Scripts/Utils.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFX/MeshEffect/Scripts/ME_Reflection.cs" />
+    <Compile Include="Assets/1.0.Scripts/Managers/ObjectivesManager.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs" />
+    <Compile Include="Assets/1.0.Scripts/Loot/LootWindow.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/EventSystemChecker.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/DropdownSample.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets/1.0.Scripts/UI/CanvasFadeInAndOut.cs" />
+    <Compile Include="Assets/1.0.Scripts/FXScripts/LightningParticleScript.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexColorCycler.cs" />
+    <Compile Include="Assets/Imported assets/Archanor/Sci-Fi Arsenal/InteractiveDemo/Demo Scripts/SciFiFireProjectile.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Utility/ActivateTrigger.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_AttachToGround.cs" />
+    <Compile Include="Assets/1.0.Scripts/Other/ObservableStack.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Environment/Water/Water/Scripts/Water.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/3d Fantasy Shots/Sample Scene/ProjectileSample.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexZoom.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/Items/EnergyPotion.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Demo/Scripts/PolygonOrbit.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" />
+    <Compile Include="Assets/1.0.Scripts/DamageTextNOT.cs" />
+    <Compile Include="Assets/1.0.Scripts/Archer/ArcherHandler.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enums/CurrencyType.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/Player/FI_Demo_PlayerController.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/SkeletonArmyAI.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Cameras/Scripts/LookatTarget.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/Player/FI_Demo_ThirdPersonCamera.cs" />
+    <Compile Include="Assets/1.0.Scripts/Inventory/Items/HealthPotion.cs" />
+    <Compile Include="Assets/1.0.Scripts/Loot/LootBag.cs" />
+    <Compile Include="Assets/1.0.Scripts/Spells/SpellScript.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/AE_ColorHelper.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Demo scene/Archer/HS_ArcherInput.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Scripts/PolygonRotation.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs" />
+    <Compile Include="Assets/1.0.Scripts/Enemy/SkeletonArmyArcher.cs" />
+    <Compile Include="Assets/1.0.Scripts/Audio/Sound.cs" />
+    <Compile Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Demo/Scripts/PolygonBeamScript.cs" />
+    <Compile Include="Assets/1.0.Scripts/EnemySlashHandler.cs" />
+    <Compile Include="Assets/1.0.Scripts/Spells/Spell.cs" />
+    <Compile Include="Assets/Fealty_II_4K/Scripts/Utility/FI_Demo_CinematicCamera.cs" />
+    <Compile Include="Assets/1.0.Scripts/Other/CharacterPanel.cs" />
+    <Compile Include="Assets/1.0.Scripts/Other/Portal.cs" />
+    <Compile Include="Assets/Imported assets/Standard Assets/ParticleSystems/Scripts/Hose.cs" />
+    <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" />
+    <Compile Include="Assets/199. Scripts/Ui/Billboard.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Curves/AE_ShaderColorGradient.cs" />
+    <Compile Include="Assets/1.0.Scripts/Perks/PerkWindow.cs" />
+    <Compile Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Scripts/Curves/AE_AudioVolumeCurves.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/AE_UberDistortionStandardMobile.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Prototyping/Shaders/WorldCoordDiffuse.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
+    <None Include="Assets/Imported assets/JJ_Casual RPG Character - 8Ekard v1.1/readme.txt" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/Rift/AE_PortalSky.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/AAA Projectiles Vol 1/Demo scenes/Readme.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets/Imported assets/Lordenfel/Lordenfel/Source/Shaders/Mauntain.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Effects/Projectors/Shaders/ProjectorLight.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader" />
+    <None Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Shader_ForEffects/Shader_Decal.shader" />
+    <None Include="Assets/Imported assets/Lordenfel/Lordenfel/Source/Shaders/FoliageWind.shader" />
+    <None Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/MobileBloom/Resources/Slashes_Bloom.shader" />
+    <None Include="Assets/Imported assets/Lordenfel/Lordenfel/Source/Shaders/ThreeWayBlendAutoscale.shader" />
+    <None Include="Assets/Imported assets/KriptoFX/MeshEffect/Readme.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
+    <None Include="Assets/Material/UnlitVertexColour_Alpha.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/AAA Projectiles Vol 1/Prefabs/Readme.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills/Readme.txt" />
+    <None Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/SceneResources/PC_DemoSources/Models/Other/mutant.fbm/MutantShader.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Effects/Projectors/Guidelines.txt" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/AE_Lightning(random).shader" />
+    <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Oswald-Bold - OFL.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Wizard spells pack/Shaders/Lit_CenterGlow.shader" />
+    <None Include="Assets/1.6.ImportedFX/Spells Pack/Demo/Environment/Shaders/Rock.shader" />
+    <None Include="Assets/Imported assets/KriptoFX/MeshEffect/Shaders/ME_Gold.shader" />
+    <None Include="Assets/1.3.Enemies/Skeleton_tier2/SkeletonWarrior_Set2_OneHandedAxe_And_Shield/Readme.txt" />
+    <None Include="Assets/Imported assets/Lordenfel/Lordenfel/Source/Shaders/RockMossy.shader" />
+    <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Anton OFL.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/SmoothSmoke.shader" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/AE_UberDistortionStandard.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/CrossPlatformInput/CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets/Imported assets/Lordenfel/Lordenfel/Source/Shaders/ThreeWayBlend.shader" />
+    <None Include="Assets/Imported assets/RzFX_BloodSpray/Shader/Rz_SpotLit.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Magic circles/Demo magic circles Vol 1/Readme.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/DissolveNoise.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Environment/Water/Water4/Shaders/WaterInclude.cginc" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/AE_DistortionPasses.cginc" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Wizard spells pack/Demo scene/About demo.txt" />
+    <None Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Shaders/Standard/PolyIntense.Shader" />
+    <None Include="Assets/Imported assets/Archer Pack/AP_Documentation/AP_Documentation.txt" />
+    <None Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Shaders/Standard/PolyRimLightSelective.shader" />
+    <None Include="Assets/1.6.ImportedFX/Spells Pack/Demo/Environment/Shaders/Vegetation.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Effects/ToonShading/Shaders/ToonLitOutline.shader" />
+    <None Include="Assets/SampleScenes/Shaders/Skybox-Procedural.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/3D Lasers Pack/Demo scene lasers/If you want to use lasers in 2D.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Wizard spells pack/Shaders/Add_Fresnel.shader" />
+    <None Include="Assets/Multistory Dungeons 2/Scenes/ReadMe (1-s person demo).txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Vehicles/Car/CarGuidelines.txt" />
+    <None Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Shader_ForEffects/Shader_DistortionEffect.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Wizard spells pack/Shaders/Ice.shader" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/AE_Lightning.shader" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/AE_GlowCutout.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/Distortion.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Vehicles/Aircraft/AircraftGuidelines.txt" />
+    <None Include="Assets/1.7.Importedenemies/Ghost Character With Scythe/Readme.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/Blend_TwoSides.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Wizard spells pack/Shaders/Electricity.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Cameras/CameraGuidelines.txt" />
+    <None Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Shaders/Standard/PolyRimLightSolid.shader" />
+    <None Include="Assets/1.6.ImportedFX/Spells Pack/Demo/Environment/Shaders/GroundCover.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Effects/GlassRefraction/Shaders/GlassStainedBumpDistort.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/Blend_CenterGlow.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Resources/Shaders/Blend_Normals.shader" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/AE_UberParticleShader.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Advanced.shader" />
+    <None Include="Assets/Multistory Dungeons 2/DunGen Presets/ReadMe DunGen.txt" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/AE_LightningParticles.shader" />
+    <None Include="Assets/Multistory Dungeons 2/Dungeon Architect Presets/ReadMe.txt" />
+    <None Include="Assets/Imported assets/KriptoFX/MeshEffect/Shaders/ME_UberDistortionStandard.shader" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Readme.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/AOE Magic spells Vol.1/Prefabs/Readme.txt" />
+    <None Include="Assets/Imported assets/Lordenfel/Readme.txt" />
+    <None Include="Assets/1.6.ImportedFX/Spells Pack/Demo/Environment/Shaders/Terrain.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/3D Lasers Pack/Demo scene lasers/Readme.txt" />
+    <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Effects/ToonShading/Shaders/ToonLit.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Wizard spells pack/Shaders/LightGlow.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
+    <None Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Polygon Arsenal 2.0 - Documentation.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/PBR Fantasy staff/Shaders/Readme.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/Lightning.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasic.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Magic circles/Prefabs/Loop version/How to use.txt" />
+    <None Include="Assets/Imported assets/KriptoFX/MeshEffect/Shaders/ME_GlowCutoutGradient.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/ParticleSystems/ParticleSystemsGuidelines.txt" />
+    <None Include="Assets/Imported assets/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularSmooth.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/PBR Fantasy staff/Shaders/Staff.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAddSoft.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/Blend_LinePath.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+    <None Include="Assets/Imported assets/Standard Assets/Effects/TessellationShaders/Shaders/BumpedSpecularDisplacement.shader" />
+    <None Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/MobileBloom/Resources/Slashes_Bloom_Inc.cginc" />
+    <None Include="Assets/Imported assets/LavaFX/Info/Info_LavaFX.txt" />
+    <None Include="Assets/Imported assets/Standard Assets/Environment/Water/Water4/Shaders/FXWater4Simple.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/BlendDistort.shader" />
+    <None Include="Assets/Imported assets/KriptoFX/MeshEffect/Shaders/ME_DistortionPasses.cginc" />
+    <None Include="Assets/Imported assets/Lordenfel/Lordenfel/Source/Shaders/Ivy.shader" />
+    <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
+    <None Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/Shaders/Slash_AnimBlended.shader" />
+    <None Include="Assets/1.6.ImportedFX/Spells Pack/Documentation/Documentation.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/AddTrail.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/Scroll.shader" />
+    <None Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/Shaders/SlashBird.shader" />
+    <None Include="Assets/Imported assets/KriptoFX/MeshEffect/Shaders/ME_UberParticleShader.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Effects/ImageEffects/Readme.txt" />
+    <None Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Shaders/Standard/PolyRimLightTransparent.shader" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/AE_UberDecal.shader" />
+    <None Include="Assets/Imported assets/RzFX_BloodSpray/Shader/Rz_MeshMask.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/Fire.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Characters/RollerBall/RollerBallGuidelines.txt" />
+    <None Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/Shaders/SlashShader.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Environment/Water/Water/Shaders/FXWaterPro.shader" />
+    <None Include="Assets/Imported assets/KriptoFX/MeshEffect/Shaders/ME_DistortionPerlin.shader" />
+    <None Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/SceneResources/Other/CullOffMobileDiffuse.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAdd.shader" />
+    <None Include="Assets/1.6.ImportedFX/1. Polygon Arsenal/Shaders/Standard/PolyLitSurface.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Effects/ToonShading/Shaders/ToonBasicOutline.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Characters/FirstPersonCharacter/FirstPersonCharacterGuidelines.txt" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/ParticleSystems/Shaders/PriorityParticleAlpha.shader" />
+    <None Include="Assets/Imported assets/RzFX_BloodSpray/Shader/Rz_NoiseDissolve.shader" />
+    <None Include="Assets/Imported assets/SpecialSkillsEffectsPack-meh/Shader_ForEffects/Shader_IntegratedEffect.shader" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/AE_DecalDistortMask.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Environment/Water (Basic)/Shaders/FXWaterBasic.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/Add_CenterGlow.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Demo scene/About demo.txt" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/Rift/AE_TranperentDiffuse.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/Rift/AE_PortalMask.shader" />
+    <None Include="Assets/Imported assets/KriptoFX/MeshEffect/Shaders/ME_GlowCutout.shader" />
+    <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
+    <None Include="Assets/Imported assets/OrdosFX/Magic Slashes FX/Shaders/SlashParticles.shader" />
+    <None Include="Assets/Imported assets/KriptoFXArcher/ArcherEffects/Shaders/AE_Lightning(Mask).shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/AOE Magic spells Vol.1/Demo AOE skills/HDRP and URP(LWRP).txt" />
+    <None Include="Assets/Imported assets/KriptoFX/MeshEffect/Shaders/ME_LightningParticles.shader" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Resources/Scripts/Readme.txt" />
+    <None Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Shaders/DiffuseReflectiveShader.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
+    <None Include="Assets/Imported assets/KriptoFX/MeshEffect/Shaders/ME_DistortionSlime.shader" />
+    <None Include="Assets/Multistory Dungeons/Read First!.txt" />
+    <None Include="Assets/1.6.ImportedFX/Hovl Studio/Archer skills pack/Shaders/Explosion.shader" />
+    <None Include="Assets/Imported assets/Standard Assets/Characters/ThirdPersonCharacter/ThirdPersonCharacterGuidelines.txt" />
+    <None Include="Assets/Imported assets/Standard Assets/Vehicles/Car/Shaders/ReflectiveDiffuseSpec.shader" />
+    <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
+    <None Include="Assets/1.3.Enemies/EnemiesOLD/JJ_Casual RPG Monster - 23 Skeleton v1.1/readme.txt" />
+    <None Include="Assets/Imported assets/Standard Assets/Fonts/OpenSans/License!.txt" />
+    <None Include="Assets/TextMesh Pro/Examples &amp; Extras/Fonts/Bangers - OFL.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsNativeModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.CoreModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DeviceSimulatorModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.DiagnosticsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.GraphViewModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PackageManagerUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.PresetsUIModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.PresetsUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.QuickSearchModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.QuickSearchModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SceneTemplateModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreFontEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TextCoreTextEngineModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIBuilderModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIBuilderModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIElementsSamplesModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UIServiceModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UnityConnectModule">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Mdb">
+      <HintPath>Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Pdb">
+      <HintPath>Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil">
+      <HintPath>Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Cecil.Rocks">
+      <HintPath>Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.DispatchProxy">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.DispatchProxy.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/System.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>/Applications/Unity/Hub/Editor/2022.1.22f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Polybrush">
+      <HintPath>Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>Library/ScriptAssemblies/Unity.Services.Core.Environments.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
